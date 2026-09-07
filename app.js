@@ -12,13 +12,14 @@ import {
 // 1. CONFIGURAÇÃO DO FIREBASE
 // ==========================================
 const firebaseConfig = {
-  apiKey: "SEU_API_KEY_AQUI",
-  authDomain: "SEU_PROJETO.firebaseapp.com",
-  projectId: "SEU_PROJETO_ID",
-  storageBucket: "SEU_PROJETO.appspot.com",
-  messagingSenderId: "SEU_SENDER_ID",
-  appId: "SEU_APP_ID"
-};
+const firebaseConfig = {
+    apiKey: "AIzaSyAgzPzIZgdu7ww1EdUFt8ctAv07uCeL9Zk",
+    authDomain: "barbearia-5a2c7.firebaseapp.com",
+    projectId: "barbearia-5a2c7",
+    storageBucket: "barbearia-5a2c7.firebasestorage.app",
+    messagingSenderId: "504189059285",
+    appId: "1:504189059285:web:f05eba2d51e60ca77de25c"
+  };
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
