@@ -11,7 +11,7 @@ import {
 // ==========================================
 // 1. CONFIGURAÇÃO DO FIREBASE
 // ==========================================
-const firebaseConfig = {
+
 const firebaseConfig = {
     apiKey: "AIzaSyAgzPzIZgdu7ww1EdUFt8ctAv07uCeL9Zk",
     authDomain: "barbearia-5a2c7.firebaseapp.com",
