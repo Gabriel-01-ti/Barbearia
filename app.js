@@ -25,7 +25,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-// ==========================================
+// =========================================
 // 2. ESTADO GLOBAL DA APLICAÇÃO
 // ==========================================
 let currentUser = null;
